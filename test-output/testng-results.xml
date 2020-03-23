@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-23T07:52:48Z" name="Testing Property Searches" finished-at="2020-03-23T07:54:19Z" duration-ms="91031">
+    <groups>
+    </groups>
+    <test started-at="2020-03-23T07:52:48Z" name="Regression" finished-at="2020-03-23T07:54:19Z" duration-ms="91031">
+      <class name="test.searchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:52:48Z" name="setUp" finished-at="2020-03-23T07:52:57Z" duration-ms="8656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c37bd27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTestLosAngeles()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:52:57Z" name="searchTestLosAngeles" finished-at="2020-03-23T07:53:19Z" duration-ms="22085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestLosAngeles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:19Z" name="tearDown" finished-at="2020-03-23T07:53:19Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:19Z" name="setUp" finished-at="2020-03-23T07:53:27Z" duration-ms="7985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c37bd27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTestMiami()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:27Z" name="searchTestMiami" finished-at="2020-03-23T07:53:48Z" duration-ms="20904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestMiami -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:48Z" name="tearDown" finished-at="2020-03-23T07:53:49Z" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:49Z" name="setUp" finished-at="2020-03-23T07:53:57Z" duration-ms="7996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c37bd27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTestSeattle()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:53:57Z" name="searchTestSeattle" finished-at="2020-03-23T07:54:18Z" duration-ms="21355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestSeattle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.searchTest@6646153]" started-at="2020-03-23T07:54:18Z" name="tearDown" finished-at="2020-03-23T07:54:19Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.searchTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Property Searches -->
+</testng-results>
