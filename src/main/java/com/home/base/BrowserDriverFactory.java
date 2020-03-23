@@ -13,6 +13,7 @@ public class BrowserDriverFactory {
 	private String browser;
 	private Logger log;
 
+	//factory constructor to pass the browser
 	public BrowserDriverFactory(String browser, Logger log) {
 		this.browser = browser.toLowerCase();
 		this.log = log;
@@ -24,6 +25,7 @@ public class BrowserDriverFactory {
 		log.info("Create driver: " + browser);
 
 		switch (browser) {
+
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver.set(new ChromeDriver());
@@ -35,7 +37,7 @@ public class BrowserDriverFactory {
 			break;
 
 		default:
-			System.out.println("Do not know how to start: " + browser + ", starting chrome.");
+			System.out.println("Using default options: " + browser + ", starting chrome.");
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver.set(new ChromeDriver());
 			break;
@@ -43,5 +45,4 @@ public class BrowserDriverFactory {
 
 		return driver.get();
 	}
-
 }
