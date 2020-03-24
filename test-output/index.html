@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Testing_Property_Searches" class="navigator-link ">
-                    <span>C:\Users\Owner\eclipse-workspace\homes.com\testng.xml</span>
+                    <span>C:\Users\Owner\eclipse-workspace\com.homes\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Testing_Property_Searches" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -159,13 +159,16 @@
         </div> <!-- panel Testing_Property_Searches -->
         <div panel-name="test-xml-Testing_Property_Searches" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Owner\eclipse-workspace\homes.com\testng.xml</span>
+            <span class="header-content">C:\Users\Owner\eclipse-workspace\com.homes\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Testing Property Searches&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.homes.listener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.searchTest&quot;/&gt;
@@ -192,6 +195,22 @@
             <span class="header-content">Groups for Testing Property Searches</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">searchTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTestLosAngeles</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTestMiami</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTestSeattle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Testing_Property_Searches" class="panel">
@@ -212,15 +231,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchTestLosAngeles')
 data.setCell(0, 2, 'test.searchTest')
-data.setCell(0, 3, 22085);
+data.setCell(0, 3, 26531);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchTestSeattle')
+data.setCell(1, 1, 'searchTestMiami')
 data.setCell(1, 2, 'test.searchTest')
-data.setCell(1, 3, 21355);
+data.setCell(1, 3, 26374);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchTestMiami')
+data.setCell(2, 1, 'searchTestSeattle')
 data.setCell(2, 2, 'test.searchTest')
-data.setCell(2, 3, 20904);
+data.setCell(2, 3, 26264);
 window.suiteTableData['Testing_Property_Searches']= { tableData: data, tableDiv: 'times-div-Testing_Property_Searches'}
 return data;
 }
@@ -253,40 +272,40 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.searchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, org.testng.TestRunner@6c37bd27)</span>
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@2bfbffb2)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchTestLosAngeles</span>
-                <span class="method-start">8656 ms</span>
+                <span class="method-name">searchTestMiami</span>
+                <span class="method-start">9146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30742 ms</span>
+                <span class="method-start">35527 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, org.testng.TestRunner@6c37bd27)</span>
-                <span class="method-start">31428 ms</span>
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@2bfbffb2)</span>
+                <span class="method-start">36434 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchTestMiami</span>
-                <span class="method-start">39413 ms</span>
+                <span class="method-name">searchTestLosAngeles</span>
+                <span class="method-start">44752 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60318 ms</span>
+                <span class="method-start">71290 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, org.testng.TestRunner@6c37bd27)</span>
-                <span class="method-start">60992 ms</span>
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@2bfbffb2)</span>
+                <span class="method-start">72103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchTestSeattle</span>
-                <span class="method-start">68988 ms</span>
+                <span class="method-start">80553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90344 ms</span>
+                <span class="method-start">106821 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

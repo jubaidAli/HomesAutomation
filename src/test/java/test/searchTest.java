@@ -9,10 +9,10 @@ public class searchTest extends TestUtilities {
 
 	
 	/* Test entering Miami in search box */
-	@Test
+	@Test(groups = "searchTest", priority = 1)
 	public void searchTestMiami() {
 		log.info("Starting search test");
-
+		
 		// open main page
 		HomePage homes = new HomePage(driver, log);
 		homes.openPage();
@@ -25,7 +25,7 @@ public class searchTest extends TestUtilities {
 	}
 	
 	/* Test entering Los Angeles in search box */
-	@Test
+	@Test(groups = "searchTest", priority = 2)
 	public void searchTestLosAngeles() {
 		log.info("Starting search test");
 
@@ -41,7 +41,7 @@ public class searchTest extends TestUtilities {
 	}
 	
 	/* Test entering Seattle in search box */
-	@Test
+	@Test(groups = "searchTest", priority = 3)
 	public void searchTestSeattle() {
 		log.info("Starting search test");
 

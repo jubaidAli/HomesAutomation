@@ -16,6 +16,7 @@ public class BaseTest {
 	protected Logger log;
 	
 	
+	
 	//This runs before every execution
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
@@ -23,6 +24,7 @@ public class BaseTest {
 		
 		String testName = context.getCurrentXmlTest().getName();
 		log = LogManager.getLogger(testName);
+		
 		
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser, log);
 		driver = factory.createDriver();
