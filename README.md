@@ -13,3 +13,4 @@ To use the application, open the project in Eclipse IDE or any java editor
 
 The Framework attempts to navigate to home page and search the key words, Miami, Los Angeles, and Seattle.
 With each search, the webdriver will navigate to the 6th listing of property. In the future it will run in parallel.
+# HomesAutomationProject
